@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.9
 
 import PackageDescription
 
@@ -6,7 +6,8 @@ let package = Package(
     name: "THEOplayerSDK",
     platforms: [
         .iOS( .v12),
-        .tvOS(.v12)
+        .tvOS(.v12),
+        .visionOS(.v1)
     ],
     products: [
         .library(name: "THEOplayerSDK", targets: ["THEOplayerSDK"]),
